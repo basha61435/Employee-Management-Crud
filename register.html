@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Registation</title>
+<style >
+a {
+padding:30px;
+text-decoration:none;
+font-size:30px;
+text-align:center;
+} fieldset
+{
+text-align:center;
+width:40%;
+position:absolute;
+left:30%;
+margin:30px;
+}legend
+{
+background:linear-gradient(45deg,red,blue);
+padding:8px;
+border:2px;
+color:white;
+margin:5px;
+border-radius:20px;
+
+}form
+{
+color:brown;
+}
+</style>
+</head>
+<body bgcolor="pink">
+<div align="center">
+<h1>EMPLOYEE MANAGEMENT SYSTEM</h1>
+<a href=home.html>Home</a>
+<a href=about.html>AboutUs</a>
+<a href=contact.html>ContactUs</a>
+
+<a href=login.html>Login</a>
+</div>
+
+<div>
+
+<fieldset>
+<legend>REGISTATION FORM</legend>
+<form action="register.jsp" method="post" >
+EMPID<input type="text" name="eid" style="margin-left:120px"><br><br>
+ENTER NAME:<input type="text" name="uname" style="margin-left:60px"><br><br>
+ENTER PASSWORD:<input type="password" name="pwd"  style="margin-left:20px"><br><br>
+ENTER EMAIL:<input type="email" name="email" style="margin-left:55px"><br><br>
+GENDER:<input type="radio" name="gen" value="male" style="margin-left:95px">MALE
+<input type="radio" name="gen" value="female">FEMALE<br><br>
+PHONE NUMBER:<input type="number" name="phno" style="margin-left:30px"><br><br>
+ADDRESS:<input type="text" name="addr" style="margin-left:80px"><br><br>
+COUNTRY<select  name="country" style="margin-left:75px" >
+<option name="country" value="select country">select country</option>
+<option name="country" value="india">india</option>
+<option name="country" value="us">us</option>
+</select><br>
+<br>
+<input type="submit" value="register" style="margin-left:30px">
+<input type="reset" value="reset">
+</form>
+</fieldset>
+</div>
+
+</body>
+</html>

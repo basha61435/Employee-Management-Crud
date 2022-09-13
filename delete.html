@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>DELETE</title>
+<style >
+a {
+padding:30px;
+text-decoration:none;
+font-size:30px;
+text-align:center;
+}
+fieldset{
+padding:20px;
+}
+legend{
+color:white;
+background-color:blue;
+padding:8px;
+border-radius:8px;
+
+}
+</style>
+</head>
+<body bgcolor="pink">
+<h1> EMPLOYEE DETAILS</h1>
+<a href=home.html>Home</a>
+<a href=about.html>AboutUs</a>
+<a href=contact.html>ContactUs</a>
+<a href=register.html>Register</a>
+<a href=login.html>Login</a>
+</div><br><br>
+<div>
+<fieldset  style="width:40%" align="center">
+<legend>DELETE EMP DETAILS</legend>
+<form action="delete.jsp" method="post">
+EMP ID:<input type="number" name="eid">
+<br><br>
+<input type="submit" value="delete recoard">
+</form>
+</fieldset>
+<span style="color:red" id="err"></span>
+</body>
+</html>
